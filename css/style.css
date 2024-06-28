@@ -1,7 +1,13 @@
 /****** General ***********/
+* {
+    box-sizing: border-box;
+
+}
+
 body {
-    margin: 0px;
+    margin: auto;
     padding: 0px;
+    max-width: 1440px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -27,34 +33,26 @@ header {
        
 }
 
-ul  {
+.nav ul  {
     margin: 0 10px;
     display: flex;
     list-style: none;
 }
 
-li {
+.nav li {
     margin-right: 20px;
     padding: 10px;
     padding-top : 15px;
-   
+    border-top: 2px solid transparent;
 }
 
-li.highlight {
-    color: #0065FC;
-       
-}
 
-li:hover {
+.nav li:hover {
     border-top: 2px solid #0065FC;
-    padding-top: 13.5px;
+    color: #0065FC;
 
 }
 
-
-{
-    font-family:'Raleway', sans-serif;
-}
 
 :root {
     --main-color: #0065FC;
