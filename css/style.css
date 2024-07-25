@@ -53,12 +53,20 @@ header {
 
 }
 
-h1, h2, h5 {
+h1, h2, {
     font-size: 20px;
 }
 
 h4 {
-    padding-top: 20px;
+    font-size: 20px;
+
+}
+
+h3 {
+    font-size: 15px;
+}
+
+h5 {
     font-size: 15px;
 }
 
@@ -512,16 +520,16 @@ footer {
     }
 
     .filter-button {
-    display: flex;
-    align-items: center;
-    border: 1px solid #ddd;
-    border-radius: 20px;
-    background-color: #fff;
-    color: #000;
-    padding: 10px 20px;
-    margin-right: 10px;
-    cursor: pointer;
-    text-decoration: none;
+        display: flex;
+        align-items: center;
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        background-color: #fff;
+        color: #000;
+        padding: 10px 20px;
+        margin-right: 10px;
+        cursor: pointer;
+        text-decoration: none;
     }
 
     .hebergements-and-populaires {
@@ -618,7 +626,7 @@ footer {
     .nav li:hover {
         border-bottom: 2px solid #0065FC;
         color: #0065FC;
-          border-top: none;   
+        border-top: none;   
     }
         
     .button-text {
